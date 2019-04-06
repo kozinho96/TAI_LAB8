@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {DataService} from '../../services/data.service';
 
 @Component({
   selector: 'home',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public items$: any;
+
+  constructor(private service: DataService) {
+  }
 
   ngOnInit() {
   }
 
+  getAll(){
+    this.service.getAll().subscribe(response => {
+      this.items$ = response;
+    });
+  }
 }
