@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../zzz/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-aop-4.3.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-beans-4.3.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-context-4.3.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-core-4.3.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-expression-4.3.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../zzz/spring-web-4.3.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

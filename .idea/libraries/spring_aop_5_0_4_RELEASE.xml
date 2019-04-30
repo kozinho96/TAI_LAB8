@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="spring-aop-5.0.4.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-aop-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-beans-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-boot-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-boot-test-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-context-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-core-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-expression-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../cv/spring-jcl-5.0.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
