@@ -9,7 +9,7 @@ import {debounceTime, distinctUntilChanged, map, switchMap} from 'rxjs/operators
 import {DataService} from "../../services/data.service";
 
 @Component({
-  selector: 'app-selectize',
+  selector: 'selectize',
   templateUrl: './selectize.component.html',
   styleUrls: ['./selectize.component.css']
 })

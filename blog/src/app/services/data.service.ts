@@ -4,20 +4,20 @@ import {HttpClient} from '@angular/common/http';
 @Injectable()
 export class DataService {
 
-  private url = 'https://blogtai.herokuapp.com';
+  private url = 'http://localhost:8080';
 
   constructor(private http: HttpClient) {
   }
 
   getAll() {
-    return this.http.get(this.url + '/api/posts/');
+    return this.http.get(`${this.url}/api/posts`);
   }
 
   getById(id) {
-    return this.http.get(this.url + '/api/posts/' + id);
+    return this.http.get(`${this.url}/api/posts/${id-1}`);
   }
 
   getByText(data) {
-    return this.http.post(this.url + '/api/posts/', data);
+    return this.http.post(`${this.url}/api/posts/`, `${data}`);
   }
 }

@@ -9,7 +9,7 @@ import {DataService} from "../../services/data.service";
 })
 export class BlogItemDetailsComponent implements OnInit {
 
-  public image: string;
+  public image: '';
   public text: string;
   public id: number;
 
@@ -25,8 +25,8 @@ export class BlogItemDetailsComponent implements OnInit {
       });
     if (id) {
       this.dataService.getById(id).subscribe(res => {
-        this.image = res['image'];
-        this.text = res['text'];
+        this.image = res['url'];
+        this.text = res['content'];
       });
     } else {
       this.id = 1;
